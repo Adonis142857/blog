@@ -3,7 +3,7 @@
   <entry>
     <title>如何用hexo+github配置一个可以建在分目录下的个人博客（2023版）</title>
     <url>/blog/2023/01/23/%20%E5%A6%82%E4%BD%95%E7%94%A8hexo+github%E9%85%8D%E7%BD%AE%E4%B8%80%E4%B8%AA%E5%8F%AF%E4%BB%A5%E5%BB%BA%E5%9C%A8%E5%88%86%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%882023%E7%89%88%EF%BC%89/</url>
-    <content><![CDATA[<p>1.下载并安装Node.js git<br />
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>1.下载并安装Node.js git<br />
 Node.js安装地址：<a href="https://nodejs.org/zh-cn/">https://nodejs.org/zh-cn/</a><br />
 Windows系统下的安装地址：<a href="https://git-scm.com/download/windows">https://git-scm.com/download/windows</a><br />
 macOS系统下的安装地址：<a href="https://git-scm.com/download/mac">https://git-scm.com/download/mac</a><br />
@@ -136,7 +136,7 @@ repo: <a href="mailto:git@github.com">git@github.com</a>:Adonis142857/blog.git<b
   <entry>
     <title>如何破解压缩包密码</title>
     <url>/blog/2023/01/24/%E5%A6%82%E4%BD%95%E7%A0%B4%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%8C%85%E5%AF%86%E7%A0%81/</url>
-    <content><![CDATA[<p>1.下载并安装Archpr<br />
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>1.下载并安装Archpr<br />
 <a href="https://github.com/Adonis142857/Paper/releases/download/select/Archpr.zip">下载链接</a><span id="more"></span><br />
 <img src="https://pic.imgdb.cn/item/63cfc8af588a5d166c9a1db5.jpg" alt="" /><br />
 2.调节密码范围<br />
@@ -154,7 +154,7 @@ PS：暴力攻击会消耗大量时间，7位密码就不建议尝试了</p>
   <entry>
     <title>如何破解Windows开机密码（适用于有管理员权限的已登入系统）</title>
     <url>/blog/2023/01/24/%E5%A6%82%E4%BD%95%E7%A0%B4%E8%A7%A3Windows%E5%BC%80%E6%9C%BA%E5%AF%86%E7%A0%81%EF%BC%88%E9%80%82%E7%94%A8%E4%BA%8E%E5%B7%B2%E7%99%BB%E5%85%A5%E7%B3%BB%E7%BB%9F%EF%BC%89/</url>
-    <content><![CDATA[<p>在windows2012以上的系统不能直接获取明文密码了，需要配置相关注册表等操作<span id="more"></span><br />
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>在windows2012以上的系统不能直接获取明文密码了，需要配置相关注册表等操作<span id="more"></span><br />
 1.下载并安装mimikatz<br />
 <a href="https://github.com/Adonis142857/Paper/releases/download/select/mimikatz.zip">下载链接</a><br />
 2.右键用管理员权限打开mimikatz<br />
@@ -174,8 +174,29 @@ PS：暴力攻击会消耗大量时间，7位密码就不建议尝试了</p>
   <entry>
     <title>文段摘抄</title>
     <url>/blog/2023/01/24/%E6%96%87%E6%AE%B5%E6%91%98%E6%8A%84/</url>
-    <content><![CDATA[<p>柔术强调利用技巧，通过合理的利用体重和制造杠杆，来控制和降服对手。每一个反抗动作中的力量都有一个方向，只要能够察觉到力量的方向，通过后续动作对之施加影响，就可以将对手的“反抗”为自己所用。<span id="more"></span><br />
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>柔术强调利用技巧，通过合理的利用体重和制造杠杆，来控制和降服对手。每一个反抗动作中的力量都有一个方向，只要能够察觉到力量的方向，通过后续动作对之施加影响，就可以将对手的“反抗”为自己所用。<span id="more"></span><br />
 关琛的确像一个钻石，每个神情每个动作，都闪烁着让人无法忽视的光芒，浑身充满戏剧张力。From《演员没有假期》</p>
+
+        <div id="aplayer-HTqJmmqU" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-HTqJmmqU"),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: "人间蜉蝣",
+              author: "未知音素",
+              url: "http://Adonis142857.github.io/mp3/人间蜉蝣.mp3",
+              pic: "https://pic.imgdb.cn/item/63cfe9d9588a5d166ce243f7.jpg",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script> 
 ]]></content>
       <categories>
         <category>摘抄</category>
