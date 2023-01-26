@@ -1938,7 +1938,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f44ed9;
+  background: #fff712;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3235,4 +3235,114 @@ pre .javascript .function {
   .pagination {
     margin: 8px 0 0;
   }
+}
+.site-title {
+  font-family: 'Lato', "PingFang SC", "华文新魏", sans-serif;
+  font-size: 20px;
+}
+.highlight {
+  border-radius: 1px;
+  background-color: #f6f8fa;
+  overflow: auto;
+  border-width: 1px 1px 1px 2px;
+  border-style: dashed dashed dashed solid;
+  border-color: #aaa #aaa #aaa #6ce26c;
+  border-image: initial;
+  position: relative;
+}
+strong {
+  font-weight: bold;
+/* background-color: #9f95ff; */
+  border-radius: 39px;
+  color: #171be7;
+  padding-left: 0px;
+  padding-right: 1px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+blockquote {
+  padding: 0 15px;
+  color: #000;
+  font-family: cursive;
+  background-color: #f0faf9;
+  border-left-color: #42c1b8;
+}
+hr {
+  background-color: #86dca3;
+}
+.posts-expand .post-body img {
+  border: 1px #6f42c1;
+}
+.posts-expand .post-title-link::before {
+  background-image: linear-gradient(90deg, #a166ab 0, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);
+}
+.category-list a {
+  color: #6f42c1;
+}
+.posts-collapse::after {
+  background-image: linear-gradient(180deg, #f79533 0, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%);
+}
+.page-archive .posts-collapse .archive-move-on {
+  background-color: #fc6423;
+}
+.posts-collapse .collection-title::before {
+  background-color: #fc6423;
+}
+.posts-collapse .post-header::before {
+  background-color: rgba(240,255,255,0);
+}
+.posts-collapse .post-meta {
+  color: #5073b8;
+  font-weight: 900;
+}
+.posts-collapse .post-title {
+  margin-left: 70px;
+}
+.pagination .page-number.current {
+  background: #a166ab;
+  border-radius: 20px 20px 20px 20px;
+}
+.pagination .prev,
+.pagination .next,
+.pagination .page-number {
+  color: #8a2be2;
+  font-weight: 500;
+  border-radius: 30px 30px 30px 30px;
+}
+.headband {
+  height: 0px;
+  background: #fc6423;
+}
+.posts-collapse .post-header {
+  position: relative;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  transition-property: inherit;
+/* padding: 10px; */
+/* box-shadow: 0 0 14px #cacbcb; */
+/* background: rgba(255,255,255,0.3); */
+/* border-radius: 10px; */
+/* border-bottom: 1px dashed #f9f9f9; */
+  box-shadow: 0 1px 3px rgba(111,66,193,0), 0 1px 2px #6f42c1;
+  padding: 2px 10px;
+  margin: 8px;
+  background: rgba(193,66,92,0);
+  border-bottom: none;
+  border-radius: 20px;
+}
+.tag-cloud a {
+  box-shadow: 0 1px 3px #6f42c1, 0 1px 2px #d9534f;
+  padding: 2px 10px;
+  margin: 8px;
+  background: rgba(193,66,92,0);
+  border-bottom: none;
+  border-radius: 20px;
+}
+code {
+  padding: 2px 4px;
+  word-wrap: break-word;
+  color: #c7254e;
+  background: #f9f2f4;
+  border-radius: 3px;
+  font-size: 18px;
 }
