@@ -673,7 +673,9 @@ PS：暴力攻击会消耗大量时间，7位密码就不建议尝试了</p>
   <entry>
     <title>语文课程</title>
     <url>/blog/2023/01/27/%E8%AF%AD%E6%96%87%E8%AF%BE%E7%A8%8B/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><div style="position: relative; padding: 30% 45%;margin-top: 10px;margin-bottom: 10px"><iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=av263883889&bvid=BV1Me411A7P4&cid=927450590&page=1&danmaku=0&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>&emsp;</p>
+<span id="more"></span>
+<div style="position: relative; padding: 30% 45%;margin-top: 10px;margin-bottom: 10px"><iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=av263883889&bvid=BV1Me411A7P4&cid=927450590&page=1&danmaku=0&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div>
 ]]></content>
       <categories>
         <category>语文</category>
@@ -686,20 +688,22 @@ PS：暴力攻击会消耗大量时间，7位密码就不建议尝试了</p>
   <entry>
     <title>徒手胸肌训练</title>
     <url>/blog/2023/01/25/%E5%BE%92%E6%89%8B%E8%83%B8%E8%82%8C%E8%AE%AD%E7%BB%83/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script>
-        <div id="aplayer-SppqdkJM" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>&emsp;</p>
+<span id="more"></span>
+
+        <div id="aplayer-OvzLDBru" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-SppqdkJM"),
+            element: document.getElementById("aplayer-OvzLDBru"),
             narrow: false,
             autoplay: false,
             showlrc: false,
             music: {
               title: "徒手胸肌初级训练",
               author: "Keep",
-              url: "https://Adonis142857.github.io/mp3/徒手胸肌初级训练.mp3",
+              url: "https://Adonis142857.gitee.io/mp3/徒手胸肌初级训练.mp3",
               pic: "https://pic.imgdb.cn/item/63d1ff74face21e9ef3b69d7.jpg",
               lrc: ""
             }
@@ -708,19 +712,19 @@ PS：暴力攻击会消耗大量时间，7位密码就不建议尝试了</p>
           window.aplayers.push(ap);
         </script> 
 
-        <div id="aplayer-QOaBBnmP" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-lDHKvRRQ" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-QOaBBnmP"),
+            element: document.getElementById("aplayer-lDHKvRRQ"),
             narrow: false,
             autoplay: false,
             showlrc: false,
             music: {
               title: "徒手胸肌进阶训练",
               author: "Keep",
-              url: "https://Adonis142857.github.io/mp3/徒手胸肌进阶训练.mp3",
+              url: "https://Adonis142857.gitee.io/mp3/徒手胸肌进阶训练.mp3",
               pic: "https://pic.imgdb.cn/item/63d1ff74face21e9ef3b69d7.jpg",
               lrc: ""
             }
@@ -729,19 +733,19 @@ PS：暴力攻击会消耗大量时间，7位密码就不建议尝试了</p>
           window.aplayers.push(ap);
         </script>
 
-        <div id="aplayer-DMDDHaxc" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-iRrdpHAk" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-DMDDHaxc"),
+            element: document.getElementById("aplayer-iRrdpHAk"),
             narrow: false,
             autoplay: false,
             showlrc: false,
             music: {
               title: "徒手胸肌强化训练",
               author: "Keep",
-              url: "https://Adonis142857.github.io/mp3/徒手胸肌强化训练.mp3",
+              url: "https://Adonis142857.gitee.io/mp3/徒手胸肌强化训练.mp3",
               pic: "https://pic.imgdb.cn/item/63d1ff74face21e9ef3b69d7.jpg",
               lrc: ""
             }
@@ -761,20 +765,22 @@ PS：暴力攻击会消耗大量时间，7位密码就不建议尝试了</p>
   <entry>
     <title>腹肌撕裂者</title>
     <url>/blog/2023/01/25/%E8%85%B9%E8%82%8C%E6%92%95%E8%A3%82%E8%80%85/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script>
-        <div id="aplayer-iZrKFpHI" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>&emsp;</p>
+<span id="more"></span>
+
+        <div id="aplayer-yEGSThmF" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-iZrKFpHI"),
+            element: document.getElementById("aplayer-yEGSThmF"),
             narrow: false,
             autoplay: false,
             showlrc: false,
             music: {
               title: "腹肌撕裂者",
               author: "Keep",
-              url: "https://Adonis142857.github.io/mp3/腹肌撕裂者.mp3",
+              url: "https://Adonis142857.gitee.io/mp3/腹肌撕裂者.mp3",
               pic: "https://pic.imgdb.cn/item/63d1e997face21e9ef06b845.jpg",
               lrc: ""
             }
@@ -795,12 +801,12 @@ PS：暴力攻击会消耗大量时间，7位密码就不建议尝试了</p>
     <title>文段摘抄</title>
     <url>/blog/2023/01/24/%E6%96%87%E6%AE%B5%E6%91%98%E6%8A%84/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script>
-        <div id="aplayer-jCjLTGJK" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-OhUSiQlY" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-jCjLTGJK"),
+            element: document.getElementById("aplayer-OhUSiQlY"),
             narrow: false,
             autoplay: false,
             showlrc: false,
