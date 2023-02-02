@@ -271,6 +271,16 @@
         </li>
       
         
+        <li class="menu-item menu-item-图书馆">
+          <a href="/blog/book/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-book"></i> <br />
+            
+            图书馆
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-commonweal">
           <a href="/blog/404/" rel="section">
             
@@ -494,126 +504,126 @@
       
 
       
-        <p>1.下载并安装Node.js git<br />
-Node.js安装地址：<a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/">https://nodejs.org/zh-cn/</a><br />
-Windows系统下的安装地址：<a target="_blank" rel="noopener" href="https://git-scm.com/download/windows">https://git-scm.com/download/windows</a><br />
-macOS系统下的安装地址：<a target="_blank" rel="noopener" href="https://git-scm.com/download/mac">https://git-scm.com/download/mac</a><br />
-（macOS系统会自带git，版本低一点但也够用了）<span id="more"></span><br />
-在cmd/终端中进行指令输入<br />
-用node -v来检测Node.js是否安装成功<br />
-返回：<br />
-<code>v18.13.0</code><br />
-用git --version来检测git是否安装成功<br />
-返回：<br />
-<code>git version 2.37.1 (Apple Git-137.1)</code><br />
-2.生成SSH密钥<br />
-输入指令<br />
-<code>ssh-keygen -t rsa -C &quot;user@email.com&quot;</code>（这里换成你注册github的邮箱）<br />
-返回：<br />
-Generating public/private rsa key pair.<br />
-Enter file in which to save the key (/Users/Adonis142857/.ssh/id_rsa):<br />
-Created directory ‘/Users/Adonis142857/.ssh’.<br />
-接下来的passphrase可以直接留空<br />
-Enter passphrase (empty for no passphrase):<br />
-Enter same passphrase again:<br />
-Your identification has been saved in /Users/Adonis142857/.ssh/id_rsa<br />
-Your public key has been saved in /Users/Adonis142857/.ssh/id_rsa.pub<br />
-The key fingerprint is:<br />
-打开上方目录中生成的文件<code>id_rsa.pub</code><br />
-Ctrl+a/⌘+a进行全文选中<br />
-Ctrl+c/⌘+c进行全文拷贝<br />
-3.进入github.com并登录<br />
-<img src="https://pic.imgdb.cn/item/63ce8372588a5d166c5d538b.jpg" alt="" /><br />
-点击右上角人物头像<br />
-<img src="https://pic.imgdb.cn/item/63ce8372588a5d166c5d53b5.jpg" alt="" /><br />
-点击Settings<br />
-<img src="https://pic.imgdb.cn/item/63ce8372588a5d166c5d53ed.jpg" alt="" /><br />
-点击SSH and GPG keys<br />
-<img src="https://pic.imgdb.cn/item/63ce8372588a5d166c5d5402.jpg" alt="" /><br />
-点击 New SSH key<br />
-<img src="https://pic.imgdb.cn/item/63ce8372588a5d166c5d541d.jpg" alt="" /><br />
-在Title中输入你的github用户名，Key中输入刚才在<code>id_rsa.pub</code>中复制到的字符串<br />
-4.安装hexo<br />
-依赖安装慢点可以使用镜像<br />
-指令如下<br />
-清空代理<br />
-<code>npm config set proxy null</code><br />
-清理缓存<br />
-<code>npm cache clean --force</code><br />
-重新设置镜像源<br />
-<code>npm config set registry https://registry.npm.taobao.org</code><br />
-用指令cd进入要安装hexo的目录<br />
-<code>例：cd/Users/Adonis142857/Documents/website/blog</code><br />
-使用指令<br />
-<code>sudo npm install hexo-cli -g</code><br />
-安装完后使用指令<br />
-<code>hexo init blog</code><br />
-安装完后进入目录<br />
-<code>cd blog</code><br />
-使用指令安装依赖<br />
-<code>npminstall</code><br />
-安装完后可以使用指令<br />
-<code>hexo s</code><br />
-在本地页面上查看效果<br />
-在浏览器中进入地址localhost:4000即可查看博客界面<br />
-5.创建用于储存博客的储存库<br />
-<a target="_blank" rel="noopener" href="http://xn--github-2l2js25yfoixu5b.com">进入网站github.com</a><br />
-<img src="https://pic.imgdb.cn/item/63cfd13f588a5d166caf3d53.jpg" alt="" /><br />
-点击New<br />
-<img src="https://pic.imgdb.cn/item/63cfd10e588a5d166caee436.jpg" alt="" /><br />
-在其中配置Repository name<br />
-这里分两种<br />
-(1)希望在username.github.io打开自己博客<br />
-那么就在Repository <a target="_blank" rel="noopener" href="http://xn--nameusername-894si79ajxz.github.io">name中填写username.github.io</a>（要换成自己的github用户名）<br />
-例：<br />
-希望在Adonis142857.github.io打开自己博客<br />
-那么就在Repository <a target="_blank" rel="noopener" href="http://xn--nameAdonis142857-t79ys46b2r4a.github.io">name中填写Adonis142857.github.io</a><br />
-(2)<a target="_blank" rel="noopener" href="http://xn--username-q86nh56c3px.github.io/Repository">希望在username.github.io/Repository</a> name中打开自己博客（即建在分目录的博客）<br />
-那么就在Repository name中填写自己想要建的分目录名称<br />
-例：<br />
-<a target="_blank" rel="noopener" href="http://xn--Adonis142857-1o9ul26e474a.github.io/blog%E4%B8%AD%E6%89%93%E5%BC%80%E8%87%AA%E5%B7%B1%E5%8D%9A%E5%AE%A2">希望在Adonis142857.github.io/blog中打开自己博客</a><br />
-那么就在Repository name中填写blog<br />
-<img src="https://pic.imgdb.cn/item/63cfd185588a5d166cafc827.jpg" alt="" /><br />
-配置完后点击Create repository<br />
-6.将hexo界面发布到github上<br />
-打开blog文件夹下的<em>config.yml文件</em><br />
-改三个地方<br />
-<img src="https://pic.imgdb.cn/item/63ce87ed588a5d166c6c1dc7.jpg" alt="" /><br />
-更改title language author<br />
-<img src="https://pic.imgdb.cn/item/63ce87ed588a5d166c6c1db2.jpg" alt="" /><br />
-改动url：<br />
-分两种情况<br />
-(1)希望在username.github.io打开自己博客<br />
-那么就改成url:  <a target="_blank" rel="noopener" href="https://username.github.io">https://username.github.io</a><br />
-例：<br />
-url:  <a href="https://Adonis142857.github.io">https://Adonis142857.github.io</a><br />
-(2)<a target="_blank" rel="noopener" href="http://xn--username-q86nh56c3px.github.io/Repository">希望在username.github.io/Repository</a> name中打开自己博客（即建在分目录的博客）<br />
-那么就改成url: <a target="_blank" rel="noopener" href="https://username.github.io/Repository">https://username.github.io/Repository</a> name<br />
-例：<br />
-url: <a href="https://Adonis142857.github.io/blog">https://Adonis142857.github.io/blog</a><br />
-<img src="https://pic.imgdb.cn/item/63ce87ed588a5d166c6c1d68.jpg" alt="" /><br />
-这里type和branch按照图片进行填写就可以<br />
-repo还是要分两种情况进行改动<br />
-(1)希望在username.github.io打开自己博客<br />
-那么就改成repo: <a href="mailto:git@github.com">git@github.com</a>:username/username.github.io.git<br />
-例：<br />
-repo: <a href="mailto:git@github.com">git@github.com</a>:Adonis142857/Adonis142857.github.io.git<br />
-(2)<a target="_blank" rel="noopener" href="http://xn--username-q86nh56c3px.github.io/Repository">希望在username.github.io/Repository</a> name中打开自己博客（即建在分目录的博客）<br />
-那么就改成repo: <a href="mailto:git@github.com">git@github.com</a>:username/Repository name.git<br />
-例：<br />
-repo: <a href="mailto:git@github.com">git@github.com</a>:Adonis142857/blog.git<br />
-修改完成后用Ctrl+s/⌘+s进行保存<br />
-使用指令安装插件<br />
-<code>npm install hexo-deployer-git --save</code><br />
-使用指令配置git的邮箱和用户名<br />
-<code>git config --global user.email &quot;user@email.com&quot;</code><br />
-<code>git config --global user.name &quot;username&quot;</code><br />
-（都要改成自己的邮箱和用户名哦）<br />
-接下来输入三个指令<br />
-<code>hexo clean</code><br />
-<code>hexo generate</code><br />
-<code>hexo deploy</code><br />
-然后你的博客就已经被成功推送到github上了<br />
+        <p>1.下载并安装Node.js git<br>
+Node.js安装地址：<a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/">https://nodejs.org/zh-cn/</a><br>
+Windows系统下的安装地址：<a target="_blank" rel="noopener" href="https://git-scm.com/download/windows">https://git-scm.com/download/windows</a><br>
+macOS系统下的安装地址：<a target="_blank" rel="noopener" href="https://git-scm.com/download/mac">https://git-scm.com/download/mac</a><br>
+（macOS系统会自带git，版本低一点但也够用了）<span id="more"></span><br>
+在cmd/终端中进行指令输入<br>
+用node -v来检测Node.js是否安装成功<br>
+返回：<br>
+<code>v18.13.0</code><br>
+用git --version来检测git是否安装成功<br>
+返回：<br>
+<code>git version 2.37.1 (Apple Git-137.1)</code><br>
+2.生成SSH密钥<br>
+输入指令<br>
+<code>ssh-keygen -t rsa -C &quot;user@email.com&quot;</code>（这里换成你注册github的邮箱）<br>
+返回：<br>
+Generating public/private rsa key pair.<br>
+Enter file in which to save the key (/Users/Adonis142857/.ssh/id_rsa):<br>
+Created directory ‘/Users/Adonis142857/.ssh’.<br>
+接下来的passphrase可以直接留空<br>
+Enter passphrase (empty for no passphrase):<br>
+Enter same passphrase again:<br>
+Your identification has been saved in /Users/Adonis142857/.ssh/id_rsa<br>
+Your public key has been saved in /Users/Adonis142857/.ssh/id_rsa.pub<br>
+The key fingerprint is:<br>
+打开上方目录中生成的文件<code>id_rsa.pub</code><br>
+Ctrl+a/⌘+a进行全文选中<br>
+Ctrl+c/⌘+c进行全文拷贝<br>
+3.进入github.com并登录<br>
+<img src="https://pic.imgdb.cn/item/63ce8372588a5d166c5d538b.jpg" alt><br>
+点击右上角人物头像<br>
+<img src="https://pic.imgdb.cn/item/63ce8372588a5d166c5d53b5.jpg" alt><br>
+点击Settings<br>
+<img src="https://pic.imgdb.cn/item/63ce8372588a5d166c5d53ed.jpg" alt><br>
+点击SSH and GPG keys<br>
+<img src="https://pic.imgdb.cn/item/63ce8372588a5d166c5d5402.jpg" alt><br>
+点击 New SSH key<br>
+<img src="https://pic.imgdb.cn/item/63ce8372588a5d166c5d541d.jpg" alt><br>
+在Title中输入你的github用户名，Key中输入刚才在<code>id_rsa.pub</code>中复制到的字符串<br>
+4.安装hexo<br>
+依赖安装慢点可以使用镜像<br>
+指令如下<br>
+清空代理<br>
+<code>npm config set proxy null</code><br>
+清理缓存<br>
+<code>npm cache clean --force</code><br>
+重新设置镜像源<br>
+<code>npm config set registry https://registry.npm.taobao.org</code><br>
+用指令cd进入要安装hexo的目录<br>
+<code>例：cd/Users/Adonis142857/Documents/website/blog</code><br>
+使用指令<br>
+<code>sudo npm install hexo-cli -g</code><br>
+安装完后使用指令<br>
+<code>hexo init blog</code><br>
+安装完后进入目录<br>
+<code>cd blog</code><br>
+使用指令安装依赖<br>
+<code>npminstall</code><br>
+安装完后可以使用指令<br>
+<code>hexo s</code><br>
+在本地页面上查看效果<br>
+在浏览器中进入地址localhost:4000即可查看博客界面<br>
+5.创建用于储存博客的储存库<br>
+<a target="_blank" rel="noopener" href="http://xn--github-2l2js25yfoixu5b.com">进入网站github.com</a><br>
+<img src="https://pic.imgdb.cn/item/63cfd13f588a5d166caf3d53.jpg" alt><br>
+点击New<br>
+<img src="https://pic.imgdb.cn/item/63cfd10e588a5d166caee436.jpg" alt><br>
+在其中配置Repository name<br>
+这里分两种<br>
+(1)希望在username.github.io打开自己博客<br>
+那么就在Repository <a target="_blank" rel="noopener" href="http://xn--nameusername-894si79ajxz.github.io">name中填写username.github.io</a>（要换成自己的github用户名）<br>
+例：<br>
+希望在Adonis142857.github.io打开自己博客<br>
+那么就在Repository <a target="_blank" rel="noopener" href="http://xn--nameAdonis142857-t79ys46b2r4a.github.io">name中填写Adonis142857.github.io</a><br>
+(2)<a target="_blank" rel="noopener" href="http://xn--username-q86nh56c3px.github.io/Repository">希望在username.github.io/Repository</a> name中打开自己博客（即建在分目录的博客）<br>
+那么就在Repository name中填写自己想要建的分目录名称<br>
+例：<br>
+<a target="_blank" rel="noopener" href="http://xn--Adonis142857-1o9ul26e474a.github.io/blog%E4%B8%AD%E6%89%93%E5%BC%80%E8%87%AA%E5%B7%B1%E5%8D%9A%E5%AE%A2">希望在Adonis142857.github.io/blog中打开自己博客</a><br>
+那么就在Repository name中填写blog<br>
+<img src="https://pic.imgdb.cn/item/63cfd185588a5d166cafc827.jpg" alt><br>
+配置完后点击Create repository<br>
+6.将hexo界面发布到github上<br>
+打开blog文件夹下的<em>config.yml文件</em><br>
+改三个地方<br>
+<img src="https://pic.imgdb.cn/item/63ce87ed588a5d166c6c1dc7.jpg" alt><br>
+更改title language author<br>
+<img src="https://pic.imgdb.cn/item/63ce87ed588a5d166c6c1db2.jpg" alt><br>
+改动url：<br>
+分两种情况<br>
+(1)希望在username.github.io打开自己博客<br>
+那么就改成url:  <a target="_blank" rel="noopener" href="https://username.github.io">https://username.github.io</a><br>
+例：<br>
+url:  <a href="https://Adonis142857.github.io">https://Adonis142857.github.io</a><br>
+(2)<a target="_blank" rel="noopener" href="http://xn--username-q86nh56c3px.github.io/Repository">希望在username.github.io/Repository</a> name中打开自己博客（即建在分目录的博客）<br>
+那么就改成url: <a target="_blank" rel="noopener" href="https://username.github.io/Repository">https://username.github.io/Repository</a> name<br>
+例：<br>
+url: <a href="https://Adonis142857.github.io/blog">https://Adonis142857.github.io/blog</a><br>
+<img src="https://pic.imgdb.cn/item/63ce87ed588a5d166c6c1d68.jpg" alt><br>
+这里type和branch按照图片进行填写就可以<br>
+repo还是要分两种情况进行改动<br>
+(1)希望在username.github.io打开自己博客<br>
+那么就改成repo: <a href="mailto:git@github.com">git@github.com</a>:username/username.github.io.git<br>
+例：<br>
+repo: <a href="mailto:git@github.com">git@github.com</a>:Adonis142857/Adonis142857.github.io.git<br>
+(2)<a target="_blank" rel="noopener" href="http://xn--username-q86nh56c3px.github.io/Repository">希望在username.github.io/Repository</a> name中打开自己博客（即建在分目录的博客）<br>
+那么就改成repo: <a href="mailto:git@github.com">git@github.com</a>:username/Repository name.git<br>
+例：<br>
+repo: <a href="mailto:git@github.com">git@github.com</a>:Adonis142857/blog.git<br>
+修改完成后用Ctrl+s/⌘+s进行保存<br>
+使用指令安装插件<br>
+<code>npm install hexo-deployer-git --save</code><br>
+使用指令配置git的邮箱和用户名<br>
+<code>git config --global user.email &quot;user@email.com&quot;</code><br>
+<code>git config --global user.name &quot;username&quot;</code><br>
+（都要改成自己的邮箱和用户名哦）<br>
+接下来输入三个指令<br>
+<code>hexo clean</code><br>
+<code>hexo generate</code><br>
+<code>hexo deploy</code><br>
+然后你的博客就已经被成功推送到github上了<br>
 可以去看看哦</p>
 
       
@@ -777,7 +787,7 @@ repo: <a href="mailto:git@github.com">git@github.com</a>:Adonis142857/blog.git<b
               
                 <a href="/blog/">
               
-                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-count">11</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -788,7 +798,7 @@ repo: <a href="mailto:git@github.com">git@github.com</a>:Adonis142857/blog.git<b
               
               <div class="site-state-item site-state-categories">
                 <a href="/blog/categories/index.html">
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">9</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -799,7 +809,7 @@ repo: <a href="mailto:git@github.com">git@github.com</a>:Adonis142857/blog.git<b
               
               <div class="site-state-item site-state-tags">
                 <a href="/blog/tags/index.html">
-                  <span class="site-state-item-count">13</span>
+                  <span class="site-state-item-count">16</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -850,7 +860,7 @@ repo: <a href="mailto:git@github.com">git@github.com</a>:Adonis142857/blog.git<b
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">5.2k</span>
+    <span title="Site words total count">10.1k</span>
   
 </div>
 
