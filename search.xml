@@ -148,8 +148,45 @@ PS：暴力攻击会消耗大量时间，7位密码就不建议尝试了</p>
         <category>密码破解</category>
       </categories>
       <tags>
-        <tag>密码破解</tag>
         <tag>压缩包</tag>
+        <tag>密码破解</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>打造“我”</title>
+    <url>/blog/2023/05/02/%E6%89%93%E9%80%A0%E2%80%9C%E6%88%91%E2%80%9D/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>我在聊天工具上和很多人聊天，有的人聊得多，有的人聊的少，我在群里也会说话，我还会写博客和公众号，我会在很多地方留下评论，这些是我在网络世界留下的痕迹，某种程度上这些东西构成了世界对我的认知，从这个角度上，也就构成了我。将这些数据、全部汇入一个神经网络模型之中，去更新其中的参数，理论上就可以获得一个我的数字拷贝。</p>
+<span id="more"></span>
+<p>从原理上，这和对 chatgpt 说“请扮演一个叫小王的人，他的经历是XXX”不同，虽然以 chatgpt 的智慧，这样的扮演毫不费力且可能以假乱真，但其实 chatgpt 的参数并没有改变，这更像是“扮演”而非“重塑”，chatgpt 的上千亿个参数并没有改变一个，它从你之前的文本中获取一些信息，然后用它的智慧来应对你。</p>
+<p>我某些时候少言寡语，另一些时候则滔滔不绝，这是我自己能够感知的一些特点，此外还有更多我自己都无法察觉的固定习惯，但这些微妙又模糊的东西，我无法告诉 chatgpt，这就像你做自我介绍，可以介绍的很丰富，但和真正的你，依然差之千里，甚至有时候截然相反，因为当我们意识到自己的存在的时候，我们其实是在表演自己，只有在我们没有意识到自己的存在，而融入生活的时候，我们才是真正的自己。</p>
+<p>欣喜的是，在Github上已经有许多预训练模型了，例如nanoGPT，llama 和 chatglm6b。借助它们，我想要打造一个“我”。</p>
+<p>现在存在的所有广为人知的文本大模型，都是用海量的数据训练的，训练过程会尽可能包含全人类所产生的所有信息，这些信息让模型的亿万参数得以不断优化，然后得到更聪明的神经网络模型。但它们更像是人类的，而非个体的，当我用我自己的这些数据去重新训练模型时，我能得到完全不一样的东西，一个更靠近个体的模型，虽然无论是我产生的数据量，还是我采用的预训练模型的参数量和结构，可能都无法支撑起一个能够和我的脑子差不多的模型，但对此进行的尝试，依然非常有意思。</p>
+<p>这样一想，人生似乎都少了一些孤独感。</p>
+<p>如果你愿意帮忙的话，欢迎在<a href="http://adonis142857.gitee.io/blog/2023/05/02/%E6%89%93%E9%80%A0%E2%80%9C%E6%88%91%E2%80%9D/">链接</a>下方的评论区输入有关于我的一切，可以是一段文字，也可以是与我之间的对话，不胜感激。</p>
+<p>附：我参考的项目</p>
+<ul>
+<li>
+<p>chatglm-6b：<a href="https://github.com/THUDM/ChatGLM-6B">THUDM/ChatGLM-6B: ChatGLM-6B：开源双语对话语言模型 | An Open Bilingual Dialogue Language Model (github.com)</a></p>
+</li>
+<li>
+<p>zero_nlp：<a href="https://github.com/yuanzhoulvpi2017/zero_nlp">yuanzhoulvpi2017/zero_nlp: 中文nlp应用(大模型、数据、模型、训练、推理) (github.com)</a></p>
+</li>
+<li>
+<p>chatglm_finetuning：<a href="https://github.com/ssbuild/chatglm_finetuning">https://github.com/ssbuild/chatglm_finetuning</a></p>
+</li>
+<li>
+<p>nanoGPT： <a href="https://github.com/karpathy/nanoGPT">https://github.com/karpathy/nanoGPT</a></p>
+<p>运用nanoGPT的训练截图</p>
+<p><img src="https://pic2.imgdb.cn/item/6450a7bf0d2dde5777b1e9f2.jpg" alt></p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>语言模型</category>
+      </categories>
+      <tags>
+        <tag>语言模型</tag>
+        <tag>神经网络模型</tag>
       </tags>
   </entry>
   <entry>
@@ -168,8 +205,8 @@ PS：暴力攻击会消耗大量时间，7位密码就不建议尝试了</p>
         <category>密码破解</category>
       </categories>
       <tags>
-        <tag>Windows系统</tag>
         <tag>密码破解</tag>
+        <tag>Windows系统</tag>
       </tags>
   </entry>
   <entry>
@@ -771,12 +808,12 @@ M1001 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>&emsp;</p>
 <span id="more"></span>
 
-        <div id="aplayer-YNobUFfa" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-DEsWykCj" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-YNobUFfa"),
+            element: document.getElementById("aplayer-DEsWykCj"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -792,12 +829,12 @@ M1001 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
           window.aplayers.push(ap);
         </script> 
 
-        <div id="aplayer-hgeONlZe" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-xZzHuiGt" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-hgeONlZe"),
+            element: document.getElementById("aplayer-xZzHuiGt"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -813,12 +850,12 @@ M1001 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
           window.aplayers.push(ap);
         </script>
 
-        <div id="aplayer-DUrCcPKG" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-iqvXtpRk" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-DUrCcPKG"),
+            element: document.getElementById("aplayer-iqvXtpRk"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -848,12 +885,12 @@ M1001 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>&emsp;</p>
 <span id="more"></span>
 
-        <div id="aplayer-bJDtuOpU" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-FZJEftXE" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-bJDtuOpU"),
+            element: document.getElementById("aplayer-FZJEftXE"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -883,12 +920,12 @@ M1001 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/blog/assets/css/APlayer.min.css"><script src="/blog/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>&emsp;</p>
 <span id="more"></span>
 
-        <div id="aplayer-zbjHOBSu" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-TBZNRIII" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-zbjHOBSu"),
+            element: document.getElementById("aplayer-TBZNRIII"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -904,12 +941,12 @@ M1001 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
           window.aplayers.push(ap);
         </script> 
 
-        <div id="aplayer-wnsoKjyl" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-JKBBWoqc" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-wnsoKjyl"),
+            element: document.getElementById("aplayer-JKBBWoqc"),
             narrow: false,
             autoplay: false,
             showlrc: false,
