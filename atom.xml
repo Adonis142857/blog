@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>蜉蝣的博客</title>
+  <title>傅说</title>
   
   <subtitle>记录想要去记下的生活</subtitle>
   <link href="https://adonis142857.github.io/blog/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>https://adonis142857.github.io/blog/</id>
   
   <author>
-    <name>蜉蝣</name>
+    <name>傅怡然</name>
     
   </author>
   
